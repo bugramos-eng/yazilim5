@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double sayi, sonuc;
+            Console.WriteLine("bir sayı giriniz");
+            sayi=Convert.ToInt32(Console.ReadLine());
+            sonuc = sayi * 18 / 100;
+            Console.WriteLine("girilen sayi %18 i "+sonuc);
+            Console.ReadKey();
+        }
+    }
+}
